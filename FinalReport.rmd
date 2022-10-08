@@ -12,7 +12,7 @@ output: html_document
 
 
 ```{r include=FALSE,echo=FALSE}
-source(fisherXY)
+source(file="fisherXY.R")
 require(tigerstats)
 require(knitr)
 require(foreign)
