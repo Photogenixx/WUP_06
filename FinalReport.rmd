@@ -11,7 +11,9 @@ output: html_document
 
 
 
-```{r include=FALSE,echo=FALSE}
+
+
+```{r,include=FALSE}
 source(file="fisherXY.R")
 require(tigerstats)
 require(knitr)
@@ -46,12 +48,14 @@ In this  variable analysis we will be using graphical, numerical and inferential
 ## Descriptive Results
 
 ### Graphical Descriptive Results
+
 ```{r}
 barchartGC(~race + cappun,data=mydata)
 barchartGC(~race + cappun,data=mydata, type="percent")
 
-```
-This plote shows the opinions of groups categorize by race; Blacks, Whites and Others. There are twice as many whites that oppose capital punishment,as compared to the others and Blacks, that showed somewhere around 1/3 to 1/5 as  many who opposed.
+
+
+This plot shows the opinions of groups categorize by race; 350 Blacks, Whites and Others. There are twice as many whites (1450) that oppose capital punishment,as compared to the Others as well as Blacks, that showed somewhere around 1/3 to 1/5 as  many who are opposed.
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
@@ -146,7 +150,7 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 
 ```
 ```{r}
-fisherXY(mydata$race,mydata$cappun)
+fisherXY(mydata$race,mydata$cappun,printAll=TRUE)
 ```
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
