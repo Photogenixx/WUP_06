@@ -102,7 +102,7 @@ fisherXY(mydata$race,mydata$cappun)
 
 
 
-The fisher xy function test shows that there is a statistical difference on the choices that were  made by white and black races in regards to capital punishment are different according to the p value of the fisher xy test results, how ever when we got more data the p value shows more difference between each race and a bigger difference is between the whites and the blacks, because of a lower p.value.
+The fisher xy function test shows that there is a statistical difference on the choices that were  made by white and black races in regards to capital punishment are different according to the p value of the fisher xy test results, how ever when we got more data the p value shows more difference between each race and a bigger difference is between the whites and the blacks, because of a much larger p value.
 
 # Discussion and Conclusion
 
