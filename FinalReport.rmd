@@ -1,6 +1,6 @@
 ---
 title: "GSS challange More Data"
-author: "Daryl Perry"
+author: "Daryl P"
 date: "FALL 2022"
 output: html_document
 ---
