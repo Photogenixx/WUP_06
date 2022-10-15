@@ -31,24 +31,33 @@ mutate(across(where(is.character), as.factor))
 ```
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
-Is attitude toward capitol punishment (cappun) independent of race (race)?
+Is the attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??
 
 # Methods
-The types of variables in this problem consist of races and capital punishment both catagorical variablesfiles. cat cat helper files will be ok .Race and capital  punishment factors has 2 variables
+The types of variables in this problem consist of races and capital punishment both catagorical variable files. cat cat helper files will be ok. Race and capital  punishment are factors we chose to consider in our data.
 
 <!--Decide on your methods:  use "variable aonalysis" or other appropriate
 descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
-
-# Results
+the 
+# Results are shown thru the use of numerical and graphical data that more whites are for capital punishment than blacks or other races
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
 
 ### Graphical Descriptive Results
+The barchart below is a graphical representation of the the people separated by race and there choices, those in favor or oppsed to capital punishment
 
-<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
+``` is a graphical representation
+barchartGC(~race + cappun,data=mydata)
+barchartGC(~race + cappun,data=mydata, type="percent")
+
+```
+
+This plot shows that the attitudeds about capital punishment are dependant on race. It shows an est. of about twice as many whites are in favor of capital punishment.and shows that more blacks are against capital punishment than whites and other races.
+
+<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels  are depende for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
 
 
