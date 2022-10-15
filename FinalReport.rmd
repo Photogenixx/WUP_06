@@ -32,19 +32,23 @@ mutate(across(where(is.character), as.factor))
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
 Is the attitude toward capitol punishment (cappun) independent of race (race)?
-If not, then whose view differs from whom??
+If not, then whose view differs from whom?
+
+To establish the answer to this statement requires the use of numerical, graphical and inferential data mentioned in the methods below to support our decisions.
 
 # Methods
-The types of variables in this problem consist of races and capital punishment both catagorical variable files. cat cat helper files will be ok. Race and capital  punishment are factors we chose to consider in our data.
+The types of variables in this problem consist of races and capital punishment both of which are catagorical variable files. therefoe cat cat helper files will be a good choice to assist in analyizing the Race and capital  punishment data.
 
 <!--Decide on your methods:  use "variable aonalysis" or other appropriate
-descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
-the 
+descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical  and inferential tools will be used!-->
+the variable analysis is best show by using the chart plot that shows the frequency and percentages of the people used in the collection of data.
+
 # Results are shown thru the use of numerical and graphical data that more whites are for capital punishment than blacks or other races
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
+looking at the plot it appears their is a difference in how different races show their choice about(cappun)
 
 ### Graphical Descriptive Results
 The barchart below is a graphical representation of the the people separated by race and there choices, those in favor or oppsed to capital punishment
