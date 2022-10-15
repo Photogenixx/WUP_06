@@ -55,28 +55,24 @@ The barchart below is a graphical representation of the the people separated by 
 
 ``` is a graphical representation
 barchartGC(~race + cappun,data=mydata)
-barchartGC(~race + cappun,data=mydata, type="percent")
+barchartGC(~race + cappun,data=mydata, type="percent
 
-```
-
-This plot shows that the attitudeds about capital punishment are dependant on race. It shows an est. of about twice as many whites are in favor of capital punishment.and shows that more blacks are against capital punishment than whites and other races.
-
-<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels  are depende for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
+graphical chart descriptionT
 
 
-
-## Now with The Most data (fewer variables gives more data points)
-
+## Now with More data
 
 
-### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
-
-
-## Now with More data
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+The numerical results display that 65% of whites favor capital punishment and 58% blacks  oppose capital punishment and about 55% of other races are in favor of  
 
 
 
